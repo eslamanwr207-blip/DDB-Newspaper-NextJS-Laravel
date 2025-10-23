@@ -1,0 +1,189 @@
+.MainPostInLeft{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+
+    margin: 0;
+    padding: 0;
+}
+
+.MainPostInLeft img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+
+
+
+}
+
+.MainPostInLeft h2{
+    font-size: 20px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.MainPostInLeft p{
+    font-size: 15px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1000px) and (max-width:1200px){
+
+
+    .MainPostInLeft h2{
+        font-size: 19px;
+
+    }
+
+    .MainPostInLeft p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px){
+    .MainPostInLeft{
+        width: 50px;
+    }
+    .MainPostInLeft img{
+        height: 160px;
+
+
+
+
+    }
+    .MainPostInLeft h2{
+        font-size: 17px;
+
+    }
+
+    .MainPostInLeft p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:800px){
+    .MainPostInLeft{
+        width: 100%;
+    }
+
+    .MainPostInLeft a{
+        margin: 0;
+    }
+
+    .MainPostInLeft img{
+        width: 100%;
+        height: 350px;
+        border-radius: 5px;
+
+
+
+    }
+
+    .MainPostInLeft h2{
+        font-size: 20px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .MainPostInLeft p{
+        font-size: 15px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px){
+    .MainPostInLeft{
+        width: 48%;
+    }
+
+    .MainPostInLeft a{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+
+        align-items: center;
+
+    }
+
+    .MainPostInLeft img{
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+
+        margin: 0;
+        padding: 0;
+
+
+
+    }
+
+    .MainPostInLeft h2{
+        font-size: 18px;
+        width: 200px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .MainPostInLeft p{
+        font-size: 14px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width:400px){
+    .MainPostInLeft{
+        width: 48%;
+    }
+
+    .MainPostInLeft a{
+        margin: 0;
+    }
+
+    .MainPostInLeft img{
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+
+
+
+    }
+
+    .MainPostInLeft h2{
+        font-size: 16px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+
+    .MainPostInLeft p{
+        font-size: 13px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+}

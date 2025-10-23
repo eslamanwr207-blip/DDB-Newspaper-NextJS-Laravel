@@ -1,0 +1,11 @@
+.HomeSectionTow{
+    margin-top: 30px;
+    display: flex;
+}
+
+@media screen and (min-width: 0px) and (max-width:800px){
+    .HomeSectionTow{
+        margin-top: 30px;
+        display: block;
+    }
+}

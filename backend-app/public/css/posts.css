@@ -1,0 +1,166 @@
+.Posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    .Posts{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:500px){
+    .Posts{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Post{
+    width: 20%;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.Post img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.Post h2{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px){
+
+    .Post img{
+        height: 240px;
+
+    }
+
+    .Post h2{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1000px){
+    .Post{
+        width: 30%;
+        margin: 10px;
+
+    }
+
+    .Post img{
+        height: 240px;
+
+    }
+
+    .Post h2{
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:800px){
+    .Post{
+
+        width: 30%;
+        margin: 5px;
+
+    }
+
+    .Post img{
+        height: 210px;
+
+    }
+
+    .Post h2{
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    .Post{
+
+        width: 47%;
+        margin: 5px;
+
+    }
+
+    .Post img{
+        height: 210px;
+
+    }
+
+    .Post h2{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:400px){
+    .Post{
+
+        width: 44%;
+        margin: 5px;
+
+    }
+
+    .Post img{
+        height: 170px;
+
+    }
+
+    .Post h2{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:300px){
+    .Post{
+
+        width: 90%;
+        margin: 5px;
+
+    }
+
+    .Post img{
+        height: 170px;
+
+    }
+
+    .Post h2{
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+
+
+

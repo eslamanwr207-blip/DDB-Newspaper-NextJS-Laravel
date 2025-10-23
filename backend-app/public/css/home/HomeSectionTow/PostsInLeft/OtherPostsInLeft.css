@@ -1,0 +1,124 @@
+.OtherPostsInLeft{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+
+
+
+}
+
+.OtherPostsInLeft img{
+    width: 40%;
+    height: 100px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.OtherPostsInLeft h2{
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+
+}
+
+@media screen and (min-width: 1000px) and (max-width:1200px){
+    .OtherPostsInLeft h2{
+        font-size: 16px;
+
+
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px){
+    .OtherPostsInLeft img{
+        width: 40%;
+        height: 90px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+    .OtherPostsInLeft h2{
+        font-size: 14px;
+
+
+    }
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width:800px){
+    .OtherPostsInLeft{
+        width: 100%;
+
+        margin: 10px 0 0 0;
+
+
+
+
+    }
+
+    .OtherPostsInLeft{
+        margin: 0;
+
+    }
+    .OtherPostsInLeft img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .OtherPostsInLeft h2{
+        font-size: 16px;
+
+
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px){
+    .OtherPostsInLeft{
+        width: 100%;
+
+        margin: 10px 0 0 0;
+
+    }
+
+
+
+    .OtherPostsInLeft img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .OtherPostsInLeft h2{
+        font-size: 13px;
+
+
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:400px){
+    .OtherPostsInLeft{
+        width: 100%;
+
+        margin: 10px 0 0 0;
+
+
+    }
+
+    .OtherPostsInLeft{
+        margin: 0;
+    }
+
+    .OtherPostsInLeft img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .OtherPostsInLeft h2{
+        font-size: 12px;
+
+
+    }
+}

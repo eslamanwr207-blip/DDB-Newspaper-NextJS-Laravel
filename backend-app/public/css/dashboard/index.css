@@ -1,0 +1,83 @@
+#home{
+    width: 90%;
+    margin: 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .main{
+    width: 22%;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #bebebe;
+    border-radius: 5px;
+    padding: 5px;
+}
+#home .main svg{
+    width: 80%;
+    height: 300px;
+}
+#home .main h3{
+    width: 100%;
+}
+
+
+form{
+    padding: 10px 20px;
+    text-align: right
+}
+.mb-3{
+    text-align: right;
+}
+h1, h3{
+    text-align: right;
+}
+
+
+.settings{
+    width: 97%;
+    margin: auto;
+}
+
+
+
+h1{
+    margin: 50px 20px;
+}
+.actions{
+    display: flex;
+}
+.actions form button{
+    width: 100px;
+    margin-left: 5px;
+
+}
+.actions a{
+    width: 100px;
+    margin-left: 5px;
+
+}
+#data{
+
+    padding: 10px 20px;
+}
+
+
+.delete{
+    border: none;
+    background: none;
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#btn{
+    background: #001661;
+    color: white;
+    width: 100%;
+}
