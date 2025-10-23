@@ -1,0 +1,183 @@
+.SecondMainPost{
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+ 
+
+}
+
+.SecondMainPostLink{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+
+
+.SecondMainPost img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.SecondMainPost h2{
+    font-size: 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* عدد الأسطر التي تريد إظهارها */
+    overflow: hidden;
+
+    text-align: center;
+
+}
+
+.SecondMainPost p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* عدد الأسطر التي تريد إظهارها */
+    overflow: hidden;
+
+    text-align: center;
+
+}
+
+
+@media screen and (min-width: 1000px) and (max-width:1200px){
+    .SecondMainPost{
+        height: 350px;
+    }
+
+    .SecondMainPost img{
+        width: 100%;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+    .SecondMainPost h2{
+        font-size: 22px;
+    }
+    
+    .SecondMainPost p{
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px){
+    .SecondMainPost{
+        height: 350px;
+    }
+
+    .SecondMainPost img{
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .SecondMainPost h2{
+        font-size: 18px;
+    }
+    
+    .SecondMainPost p{
+        font-size: 15px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:800px){
+    .SecondMainPost{
+        width: 100%;
+        height: 350px;
+
+    
+    }
+    
+    .SecondMainPost img{
+        width: 100%;
+        height: 350px;
+        border-radius: 5px;
+    }
+    
+    .SecondMainPost h2{
+        font-size: 25px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+    
+    .SecondMainPost p{
+        font-size: 18px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:500px){
+    .SecondMainPost{
+        width: 100%;
+        height: 300px;
+
+    
+    }
+    
+    .SecondMainPost img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .SecondMainPost h2{
+        font-size: 22px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+    
+    .SecondMainPost p{
+        font-size: 16px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width:400px){
+    .SecondMainPost{
+        width: 100%;
+        height: 300px;
+
+    
+    }
+    
+    .SecondMainPost img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .SecondMainPost h2{
+        font-size: 19px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+    
+    .SecondMainPost p{
+        font-size: 15px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8; /* عدد الأسطر التي تريد إظهارها */
+        overflow: hidden;
+    }
+}

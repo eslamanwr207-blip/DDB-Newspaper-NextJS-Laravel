@@ -1,0 +1,129 @@
+.MainPostInSectionTow{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.MainPostInSectionTow img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.MainPostInSectionTow h2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.MainPostInSectionTow p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) and (max-width:1200px){
+    .MainPostInSectionTow h2{
+        font-size: 25px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width:1000px){
+    .MainPostInSectionTow img{
+        height: 300px;
+    }
+    .MainPostInSectionTow h2{
+        font-size: 20px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px){
+    .MainPostInSectionTow{
+        width: 50%;
+
+    }
+    
+    .MainPostInSectionTow img{
+        height: 300px;
+    }
+    .MainPostInSectionTow h2{
+        font-size: 20px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:800px){
+    .MainPostInSectionTow{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+    .MainPostInSectionTow img{
+        width: 100%;
+        height: 350px;
+    }
+    .MainPostInSectionTow h2{
+        font-size: 20px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:600px){
+    .MainPostInSectionTow{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+    .MainPostInSectionTow img{
+        width: 100%;
+        height: 300px;
+    }
+    .MainPostInSectionTow h2{
+        font-size: 22px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:400px){
+    .MainPostInSectionTow{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+    .MainPostInSectionTow img{
+        width: 100%;
+        height: 300px;
+    }
+    .MainPostInSectionTow h2{
+        font-size: 19px;
+    }
+    .MainPostInSectionTow p{
+        font-size: 15px;
+    }
+}

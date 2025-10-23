@@ -1,0 +1,96 @@
+.PostDetail{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+.PostDetail img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.PostDetail h2{
+    margin-top: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.PostDetail p{
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width:800px) and (max-width:1200px){
+    .PostDetail{
+        width: 90%;
+
+    }
+    .PostDetail h2{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    
+    .PostDetail p{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:800px){
+    .PostDetail{
+        width: 90%;
+
+    }
+    .PostDetail img{
+        height: 450px;
+
+    }
+    .PostDetail h2{
+        margin-top: 5px;
+        font-size: 23px;
+    }
+    
+    .PostDetail p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    .PostDetail{
+        width: 90%;
+
+    }
+    .PostDetail img{
+        height: 350px;
+
+    }
+    .PostDetail h2{
+        margin-top: 5px;
+        font-size: 19px;
+    }
+    
+    .PostDetail p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:400px){
+    .PostDetail{
+        width: 95%;
+
+    }
+    .PostDetail img{
+        height: 340px;
+
+    }
+    .PostDetail h2{
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    
+    .PostDetail p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* توسيط العناصر أفقيًا */
+    align-items: center; /* تأكد من محاذاة العناصر بشكل متناسق */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.8px 0.8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .container {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100%;
+  }
+
+
+
+  #home{
+    font-size: 16px;
+    align-items: center;
+  }
+
+  #home:hover{
+    color: #000000;
+  }
+
+  
+
+  .navbar select{
+    padding: 0px 10px;
+    border: 0;
+    color: rgb(91, 91, 91);
+
+  }
+  
+  .navbar select option{
+    padding: 3px 5px;
+  }

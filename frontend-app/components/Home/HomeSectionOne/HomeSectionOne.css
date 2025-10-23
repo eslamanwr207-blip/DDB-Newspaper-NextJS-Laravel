@@ -1,0 +1,12 @@
+.HomeSectionOne{
+    display: flex;
+}
+
+@media screen and (min-width: 0px) and (max-width:800px){
+    .HomeSectionOne{
+        display: block;
+        flex-direction: column;
+        
+    }
+}
+

@@ -1,0 +1,24 @@
+.Footer{
+    margin-top: 30px;
+}
+
+.Footer .logo{
+    padding: 10px 10px ;
+    background: brown;
+    color: #ffffff;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Footer p{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+@media screen and (min-width:0px) and (max-width:40600px0px){
+    .Footer p{
+        font-size: 10px;
+    }
+}
+

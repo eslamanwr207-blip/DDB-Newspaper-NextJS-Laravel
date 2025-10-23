@@ -1,0 +1,15 @@
+.Posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    .Posts{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:500px){
+    .Posts{
+        margin-top: 10px;
+    }
+}
